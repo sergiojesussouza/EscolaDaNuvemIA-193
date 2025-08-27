@@ -37,7 +37,7 @@ else:
     print("Aluno em exame.")
     nota_exame = float(input("Digite a nota do exame: "))
     print(f"Nota do exame: {nota_exame:.1f}")
-    
+        
     media_final = (media + nota_exame) / 2
     if media_final >= 5.0:
         print("Aluno aprovado.")
